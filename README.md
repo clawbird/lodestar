@@ -31,6 +31,14 @@
 - :gear: [NodeJS](https://nodejs.org/) (LTS)
 - :toolbox: [Yarn](https://yarnpkg.com/)
 
+## Docker
+
+```bash
+time ./docker/docker.sh
+docker exec -w /eip-x/lodestar -it --user=root lodestar-dev /bin/ash
+node ./packages/cli/bin/lodestar --help
+```
+
 ###### Developer Quickstart:
 
 ```bash
